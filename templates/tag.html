@@ -1,0 +1,47 @@
+<!-- wp:template-part {"slug":"header","theme":"myblocktheme","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main"} -->
+<main class="wp-block-group"><!-- wp:group {"tagName":"main"} -->
+    <main class="wp-block-group"><!-- wp:post-title {"textAlign":"center"} /-->
+
+        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+        <div class="wp-block-group"><!-- wp:paragraph -->
+            <p>tag name:</p>
+            <!-- /wp:paragraph -->
+
+            <!-- wp:post-terms {"term":"post_tag"} /--></div>
+        <!-- /wp:group -->
+
+        <!-- wp:post-featured-image /-->
+
+        <!-- wp:spacer {"height":"32px"} -->
+        <div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+        <!-- /wp:spacer --></main>
+    <!-- /wp:group -->
+
+    <!-- wp:post-content {"layout":{"inherit":true}} /-->
+
+    <!-- wp:spacer {"height":"32px"} -->
+    <div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+
+    <!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
+    <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex"}} -->
+        <div class="wp-block-group"><!-- wp:post-date {"format":"F j, Y","style":{"typography":{"fontStyle":"italic","fontWeight":"400"}},"fontSize":"small"} /-->
+
+            <!-- wp:post-author {"showAvatar":false,"fontSize":"small"} /-->
+
+            <!-- wp:post-terms {"term":"category","fontSize":"small"} /--></div>
+        <!-- /wp:group -->
+
+        <!-- wp:spacer {"height":"32px"} -->
+        <div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+        <!-- /wp:spacer -->
+
+        <!-- wp:separator {"opacity":"css","className":"is-style-wide"} -->
+        <hr class="wp-block-separator has-css-opacity is-style-wide"/>
+        <!-- /wp:separator --></div>
+    <!-- /wp:group --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"myblocktheme","tagName":"footer"} /-->
